@@ -1,5 +1,13 @@
 # Levenshtein Distance
 
+# Equipe
+
+* Cristian Prochnow
+* Gustavo Henrique Dias
+* Lucas Willian de Souza Serpa
+* Marlon de Souza
+* Ryan Gabriel Mazzei Bromati
+
 ## 📌 O Que o Código Faz?
 Ele calcula a distância de edição (também chamada de Levenshtein Distance) entre duas strings.
 
