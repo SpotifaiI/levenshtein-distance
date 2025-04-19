@@ -47,6 +47,8 @@ Digite a segunda string: applet
 A distância de edição entre 'apple' e 'applet' é: 1
 ```
 
+# Sobre
+
 ## 📌 O Que o Código Faz?
 Ele calcula a distância de edição (também chamada de Levenshtein Distance) entre duas strings.
 
@@ -96,3 +98,7 @@ Calculamos o custo de cada operação e pegamos o menor.
 Antes de fazer qualquer cálculo, a função vê se já tem o resultado guardado no memo[(i, j)].
 Se tiver, ela retorna direto.
 Se não tiver, ela calcula, guarda e então retorna.
+
+# Mais detalhes
+
+[Clique aqui](https://docs.google.com/presentation/d/17NtrTGxWPS1uTDWmYTk9CqWM18mZtdtXLPkt0JGER8U/edit?usp=sharing) para a apresentação.
