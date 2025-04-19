@@ -8,6 +8,45 @@
 * Marlon de Souza
 * Ryan Gabriel Mazzei Bromati
 
+# Getting Started
+
+Para rodar o programa, basta executar o comando abaixo.
+
+```bash
+$ python3 main.py
+```
+
+## Exemplo
+
+Então, abaixo, vários exemplos de _input_ para o programa em questão.
+
+```bash
+➜ /workspaces/levenshtein-distance (main) $ /home/codespace/.python/current/bin/python3 /workspaces/levenshtein-distance/main.py
+Distância de Edição (Recursiva com Memoization)
+Digite a primeira string: cat
+Digite a segunda string: cut
+
+A distância de edição entre 'cat' e 'cut' é: 1
+➜ /workspaces/levenshtein-distance (main) $ /home/codespace/.python/current/bin/python3 /workspaces/levenshtein-distance/main.py
+Distância de Edição (Recursiva com Memoization)
+Digite a primeira string: man
+Digite a segunda string: menu
+
+A distância de edição entre 'man' e 'menu' é: 2
+➜ /workspaces/levenshtein-distance (main) $ /home/codespace/.python/current/bin/python3 /workspaces/levenshtein-distance/main.py
+Distância de Edição (Recursiva com Memoization)
+Digite a primeira string: case
+Digite a segunda string: care
+
+A distância de edição entre 'case' e 'care' é: 1
+➜ /workspaces/levenshtein-distance (main) $ /home/codespace/.python/current/bin/python3 /workspaces/levenshtein-distance/main.py
+Distância de Edição (Recursiva com Memoization)
+Digite a primeira string: apple
+Digite a segunda string: applet
+
+A distância de edição entre 'apple' e 'applet' é: 1
+```
+
 ## 📌 O Que o Código Faz?
 Ele calcula a distância de edição (também chamada de Levenshtein Distance) entre duas strings.
 
@@ -57,4 +96,3 @@ Calculamos o custo de cada operação e pegamos o menor.
 Antes de fazer qualquer cálculo, a função vê se já tem o resultado guardado no memo[(i, j)].
 Se tiver, ela retorna direto.
 Se não tiver, ela calcula, guarda e então retorna.
-
